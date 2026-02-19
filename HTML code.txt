@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDLAB AUTOMATION UPDATES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        nav {
+            background-color: #005bb5;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 12px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background-color: #004a99;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            color: #0073e6;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .card ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .highlight {
+            color: #e60000;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>MEDLAB AUTOMATION UPDATES</h1>
+        <p>Your go-to source for Medical Laboratory Science news and updates</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#news">News & Updates</a>
+        <a href="#dcls-mls">DCLS/MLS Updates</a>
+        <a href="#areas">MLS Areas</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- News Section -->
+        <section id="news">
+            <h2>Medical Laboratory Science News & Updates</h2>
+            <div class="card">
+                <ul>
+                    <li>Latest research breakthroughs in hematology.</li>
+                    <li>Innovations in chemical pathology testing techniques.</li>
+                    <li>Updates on lab automation tools and equipment.</li>
+                    <li>Emerging trends in histopathology diagnostics.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- DCLS/MLS Section -->
+        <section id="dcls-mls">
+            <h2>DCLS / MLS News & Updates</h2>
+            <div class="card">
+                <ul>
+                    <li>New DCLS training programs and workshops.</li>
+                    <li>Updates on certification and licensing for MLS professionals.</li>
+                    <li>Medical Laboratory conferences and webinars.</li>
+                    <li>Professional development resources for lab scientists.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Areas in MLS -->
+        <section id="areas">
+            <h2>Areas in Medical Laboratory Science</h2>
+
+            <div class="card">
+                <h3 class="highlight">Medical Microbiology</h3>
+                <p>Updates on pathogen detection, microbiome research, and infectious disease diagnostics.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="highlight">Chemical Pathology</h3>
+                <p>Innovations in biochemical testing, disease markers, and laboratory automation techniques.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="highlight">Hematology</h3>
+                <p>New diagnostic techniques, blood disorder insights, and automated hematology systems.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="highlight">Histopathology</h3>
+                <p>Tissue analysis advancements, automated histology methods, and pathology updates.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About This Website</h2>
+            <div class="card">
+                <p>Welcome to <strong>MEDLAB AUTOMATION UPDATES</strong>, curated by <strong>OFOMA CHIDIEBERE FRANCIS</strong>. This platform provides timely information on all aspects of Medical Laboratory Science, including news, innovations, and educational resources for professionals and enthusiasts.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 MEDLAB AUTOMATION UPDATES | Designed by OFOMA CHIDIEBERE FRANCIS
+    </footer>
+</body>
+</html>
